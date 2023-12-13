@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	char proud = ["make betty proud"];
+	char proud["make betty proud"];
 
-	printf( "proud,%c");
+	printf("proud,%c");
 
-	return(0)
+	return (0);
 }
